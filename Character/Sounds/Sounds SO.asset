@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdba57e1c8e61224e9b45988985d8858, type: 3}
+  m_Name: Sounds SO
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Jump
+    volume: 1
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 0}
+  - name: Attack
+    volume: 1
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 607dc273d9b8b9c49819ab6f35b5663e, type: 3}
+    - {fileID: 8300000, guid: 92eb435264d227a488eb1a264067c1c4, type: 3}
+    - {fileID: 8300000, guid: f8c6dea37da1f8348bf7acfc32f18c81, type: 3}
+    - {fileID: 8300000, guid: e7285dd72958e664aab3f08f0e4586f0, type: 3}
+    - {fileID: 8300000, guid: 26ccc164aae82454c85bb44d661d94b8, type: 3}
+    - {fileID: 8300000, guid: ba2eea35f74c77448a23369957021439, type: 3}
+  - name: Death
+    volume: 1
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 0}
+  - name: Drinking
+    volume: 1
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: edab10b339cc4fe468f868b2e2a4049c, type: 3}
+  - name: GetHit
+    volume: 1
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 974bc263171798a41bf2432d71130f42, type: 3}
+    - {fileID: 8300000, guid: 12aee8e9f3c57214d8109ec561081c4b, type: 3}
+    - {fileID: 8300000, guid: 56eef29981e32924eb81400ba703d9e8, type: 3}
+    - {fileID: 8300000, guid: a5ffbb756600d49429a39ed5e40db62a, type: 3}
+    - {fileID: 8300000, guid: 1cc82445e3695e34f88ec388a218fe2c, type: 3}
+    - {fileID: 8300000, guid: 38fd7c8816208134c8a1cf1622786efa, type: 3}
+    - {fileID: 8300000, guid: 4a731c9783184b44b98ca51945d4761c, type: 3}
+    - {fileID: 8300000, guid: 4341d2f82b5091745bdf7ca2d34ad1ec, type: 3}
+    - {fileID: 8300000, guid: 41d30f9f9f137d642906d6cd4ce10ad0, type: 3}
+    - {fileID: 8300000, guid: 1f93626c440981348bdbdab37adc54c8, type: 3}
+    - {fileID: 8300000, guid: a5e5abb1e23377e489c4621463a8fccd, type: 3}
+    - {fileID: 8300000, guid: d9d094b9524c57d48a03531599947004, type: 3}
+    - {fileID: 8300000, guid: 6501bf235d8e74b4bb4b51806c613d8f, type: 3}
+    - {fileID: 8300000, guid: 6d51231ea3fa89b4cbac4a444e2d3dcb, type: 3}
+    - {fileID: 8300000, guid: 655ba42606ffa1344ab5d69b286e856a, type: 3}
+  - name: ZombieGetHit
+    volume: 0.7
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: cfa567f290d429d47b187564e7afe6bb, type: 3}
+    - {fileID: 8300000, guid: ea3f608f0eb0ff84c80424f9ec8b3b58, type: 3}
+    - {fileID: 8300000, guid: 4f91bd433b3358f4cb49d4b7889267f7, type: 3}
+  - name: ZombieDeath
+    volume: 0.7
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: b949758f25828c34388876cead870e57, type: 3}
+  - name: SkeletonGetHit
+    volume: 0.7
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 99393c0b3021741499763c25befc2c83, type: 3}
+    - {fileID: 8300000, guid: 34c72741027e06f4aa938477908842bc, type: 3}
+    - {fileID: 8300000, guid: f7f2bdd52b517894ebb4b9485d54d411, type: 3}
+  - name: SkeletonDeath
+    volume: 0.7
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: a9a3dcd1449ebf940b5dbca8700b9e03, type: 3}
+  - name: DoorSlam
+    volume: 0.7
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 0416fa6757275e3488475c0d369c3729, type: 3}
+  - name: DoorOpen
+    volume: 0.7
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 0df39f415c5962f4c88610c3098570e2, type: 3}
+  - name: DoorClose
+    volume: 0.7
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 3b4cab39d2ce35c45aa4c030c34d909c, type: 3}
+  - name: Drawsword
+    volume: 1
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: d19f4b42d3344724097ee25238b512b5, type: 3}
+  - name: SheathSword
+    volume: 1
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 997c6052ecd993842ab4f94fb1bda988, type: 3}
+  - name: Music
+    volume: 1
+    mixer: {fileID: 4298917535938439040, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 46ab5fb7b2df96c4b8035c1065d3f13c, type: 3}
+  - name: FootStep
+    volume: 1
+    mixer: {fileID: 6797552468675511517, guid: 491a2cc7d8d7fd246889fe938e15b9ec, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 70582f61a5308b04db00564e9fd8e844, type: 3}
+    - {fileID: 8300000, guid: e0d1f9eaf3a670e49849bca5c83ef499, type: 3}
+    - {fileID: 8300000, guid: ac20b3d3d29810743b9b4cce4038603c, type: 3}
+    - {fileID: 8300000, guid: 785fa304739d0c24abe1407ab89a32ce, type: 3}
+    - {fileID: 8300000, guid: 5f4544fb6bdc8d242a3e0edd369862b4, type: 3}
+    - {fileID: 8300000, guid: a55a0d942ce35fc45b7ea80a55b46f46, type: 3}

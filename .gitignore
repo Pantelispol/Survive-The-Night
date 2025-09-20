@@ -3,62 +3,28 @@
 # =============== #
 
 # Temp and build files
-[LFS]
-[LFS]
-[LFS]
-[LFS]
-[LFS]
-[LFS]
+Library/
+Temp/
+Obj/
+Build/
+Logs/
+MemoryCaptures/
 
-# Unity cache
-[LFS]
-[LFS]
-[LFS]
-[LFS]
-[LFS]
-[LFS]
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# Unity auto-generated project files
-[LFS]
-[LFS]
-[LFS]
+# Visual Studio / IDE files
+.vs/
+*.csproj
+*.sln
+*.user
+*.unityproj
 
-# OS generated
-[LFS]
-[LFS]
-[LFS]
-[LFS]
+# Unity asset store tools cache
+Assets/AssetStoreTools*
 
-# IDE files
-[LFS]
-[LFS]
-[LFS]
-[LFS]
-[LFS]
-[LFS]
-[LFS]
-[LFS]
-
-# Builds
-[LFS]
-
-# Logs
-[LFS]
-[LFS]
-
-# Crash reports
-[LFS]
-
-# ===================== #
-# Keep these in GitHub  #
-# ===================== #
-
-# Project settings
+# Keep these in GitHub
+!Assets/
 !ProjectSettings/
 !Packages/
-
-# Unity assets & scenes (go to LFS if large)
-!Assets/**
-
-# Ignore asset store tools cache
-[LFS]

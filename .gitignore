@@ -1,0 +1,64 @@
+# =============== #
+# Unity generated #
+# =============== #
+
+# Temp and build files
+[LFS]
+[LFS]
+[LFS]
+[LFS]
+[LFS]
+[LFS]
+
+# Unity cache
+[LFS]
+[LFS]
+[LFS]
+[LFS]
+[LFS]
+[LFS]
+
+# Unity auto-generated project files
+[LFS]
+[LFS]
+[LFS]
+
+# OS generated
+[LFS]
+[LFS]
+[LFS]
+[LFS]
+
+# IDE files
+[LFS]
+[LFS]
+[LFS]
+[LFS]
+[LFS]
+[LFS]
+[LFS]
+[LFS]
+
+# Builds
+[LFS]
+
+# Logs
+[LFS]
+[LFS]
+
+# Crash reports
+[LFS]
+
+# ===================== #
+# Keep these in GitHub  #
+# ===================== #
+
+# Project settings
+!ProjectSettings/
+!Packages/
+
+# Unity assets & scenes (go to LFS if large)
+!Assets/**
+
+# Ignore asset store tools cache
+[LFS]

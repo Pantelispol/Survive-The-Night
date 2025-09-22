@@ -44,7 +44,7 @@ Download the latest build of the game.
 
 Extract the files to your preferred location.
 
-Run Survival3D.exe .
+Run Myproject.exe .
 
 🚀 Future Plans
 
